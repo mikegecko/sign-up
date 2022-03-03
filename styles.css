@@ -5,13 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+.container,.container-right,.container-left{
     display: flex;
     height: 100vh;
     max-height: 100%;
 }
+.container-right,.container-left{
+    flex-direction: column;
+}
 .container-right{
-
+    width: auto;
+    padding-left: 40px;
 }
 h1{
     font-size: 30px;
@@ -19,14 +23,13 @@ h1{
     margin-top: 15vh;
 }
 .container-left{
-    display: flex;
+    
     background-image: url("/images/roberto-nickson-5wFcCUT9THY-unsplash.jpg");
     background-size: 75vh;
     background-repeat: no-repeat;
     min-width: 500px;
     max-width: 500px;
     color: white;
-    flex-direction: column;
     text-align: center;
 }
 .logo{
