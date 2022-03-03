@@ -25,13 +25,18 @@ h1{
     background-repeat: no-repeat;
     min-width: 500px;
     max-width: 500px;
-    
-    
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+.logo{
+    margin-top: 30vh;
+    font-size: 50px;
 }
 .credit{
-    align-self: flex-end;
-    width: 500px;
+    margin-top: auto;
+    bottom: 0;
     color: white;
     font-size: 14px;
-    text-align: center;
+   
 }
