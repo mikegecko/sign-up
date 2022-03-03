@@ -19,6 +19,9 @@
     padding-left: 70px;
     
 }
+.container-right{
+    flex: 1;
+}
 .header{
     margin-top: 15vh;
     margin-bottom: 50px;
@@ -39,8 +42,7 @@ form{
     display: flex;
 }
 .fr{
-    flex: 1;
-    padding: 2px; 
+    padding: 18px; 
 }
 input{
     padding: 4px 4px;
