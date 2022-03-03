@@ -12,15 +12,31 @@
 }
 .container-right,.container-left{
     flex-direction: column;
-}
-.container-right{
     width: auto;
-    padding-left: 40px;
+    background-color: rgb(241, 241, 241);
+}
+.container-right>div{
+    padding-left: 70px;
+    
+}
+.header{
+    margin-top: 15vh;
+    margin-bottom: 50px;
 }
 h1{
     font-size: 30px;
     font-weight: 300;
-    margin-top: 15vh;
+    padding-bottom: 20px;
+}
+.formsec{
+    background-color: rgb(216, 216, 216);
+    padding: 40px 0px 0px 0px;
+    height: 30vh;
+    box-shadow: 1px 5px 10px 0px rgb(150, 150, 150);
+}
+.bottomsec{
+    height: 30vh;
+    padding: 80px 0px 0px 0px;
 }
 .container-left{
     
