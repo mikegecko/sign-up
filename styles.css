@@ -22,6 +22,7 @@
 .header{
     margin-top: 15vh;
     margin-bottom: 50px;
+    max-width: 1080px;
 }
 h1{
     font-size: 30px;
@@ -33,6 +34,24 @@ h1{
     padding: 40px 0px 0px 0px;
     height: 30vh;
     box-shadow: 1px 5px 10px 0px rgb(150, 150, 150);
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+.fr{
+    flex-direction: column;
+    flex: 1;
+    padding: 2px;
+    
+}
+input{
+    padding: 4px 4px;
+    margin: 8px 0;
+}
+label{
+    font-family: "Monaco" ,"Lucida Console", "Courier New", monospace;
+    font-size: 14px;
 }
 .bottomsec{
     height: 30vh;
