@@ -28,7 +28,7 @@
     flex: 1;
 }
 .container-left{
-    background-image: url("./images/tarun.jpg");
+    background-image: url("../images/tarun.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     width:35vw;
