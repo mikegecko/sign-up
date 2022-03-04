@@ -1,6 +1,6 @@
 @font-face{
     font-family: squidFont;
-    src: url(/font/Game-of-squids.otf);
+    src: url(./font/Game-of-squids.otf);
 }
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -28,7 +28,7 @@
     flex: 1;
 }
 .container-left{
-    background-image: url("/images/tarun-LYz-wwiPycw-unsplash.jpg");
+    background-image: url("./images/tarun.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     width:35vw;
