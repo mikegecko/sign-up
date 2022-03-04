@@ -27,6 +27,14 @@
 .container-right{
     flex: 1;
 }
+.container-left{
+    background-image: url("/images/tarun-LYz-wwiPycw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    width:35vw;
+    color: white;
+    text-align: center;
+}
 .header{
     margin-top: 15vh;
     margin-bottom: 50px;
@@ -82,14 +90,6 @@ label{
 a{
     color: #295db2;
     text-decoration: none;
-}
-.container-left{
-    background-image: url("/images/tarun-LYz-wwiPycw-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-position: top center;
-    width:35vh;
-    color: white;
-    text-align: center;
 }
 .logo{
     display: flex;
