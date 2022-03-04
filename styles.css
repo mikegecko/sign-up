@@ -65,6 +65,10 @@ label{
 .bottomsec>p{
     padding-top: 15px;
 }
+a{
+    color: #295db2;
+    text-decoration: none;
+}
 .container-left{
     background-image: url("/images/tarun-LYz-wwiPycw-unsplash.jpg");
     background-repeat: no-repeat;
