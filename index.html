@@ -30,20 +30,21 @@
                             <label for="user_firstname">First Name</label>
                         </div>
                         <div>
-                            <input type="text" id="user_firstname" name="firstname">
+                            <input type="text" id="user_firstname" name="firstname" required>
                         </div>
                         
                         <div>
                             <label for="user_email">Email</label>
                         </div>
                         <div>
-                            <input type="email" name="email" id="user_email">
+                            <input type="email" name="email" id="user_email" required>
                         </div>
                         <div>
                             <label for="user_password">Password</label>
                         </div>
                         <div>
-                            <input type="password" name="password" id="user_password">
+                            <input class="error" type="password" name="password" id="user_password" required>
+                            <p class="error">*The passwords do not match</p>
                         </div>
                     </div>
                     <div class="fr">
@@ -51,7 +52,7 @@
                             <label for="user_lastname">Last Name</label>
                         </div>
                         <div>
-                            <input type="text" name="lastname" id="user_lastname">
+                            <input type="text" name="lastname" id="user_lastname" required>
                         </div>
                         <div>
                             <label for="user_phone">Phone Number</label>
@@ -64,13 +65,13 @@
                             <label for="user_confirmpassword">Confirm Password</label>
                         </div>
                         <div>
-                            <input type="password" name="confirmpassword" id="user_confirmpassword">
+                            <input class="error" type="password" name="confirmpassword" id="user_confirmpassword" required>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="bottomsec">
-                <button>Create Account</button>
+                <button type="submit">Create Account</button>
                 <p>Already have an account? <a href="">Log in</a></p>
             </div>
         </div>
