@@ -60,7 +60,10 @@ label{
 }
 .bottomsec{
     height: 30vh;
-    padding: 80px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+}
+.bottomsec>p{
+    padding-top: 15px;
 }
 .container-left{
     background-image: url("/images/tarun-LYz-wwiPycw-unsplash.jpg");
@@ -88,4 +91,12 @@ label{
     color: white;
     font-size: 14px;
    
+}
+button{
+    border: none;
+    color: white;
+    background-color: #295db2;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
 }
