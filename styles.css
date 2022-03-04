@@ -70,13 +70,17 @@ label{
     color: white;
     text-align: center;
 }
-/*Fix the logo floating around & make it fixed| Also fix sidebar/bg image scaling improperly*/
 .logo{
-    font-family: squidFont;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 30vh;
-    font-size: 50px;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.315);
+}
+.logo-text{
+    font-family: squidFont;
+    font-size: 50px;
 }
 .credit{
     margin-top: auto;
