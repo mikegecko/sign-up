@@ -48,7 +48,6 @@ h1{
 .formsec{
     background-color: rgb(216, 216, 216);
     padding: 40px 0px 0px 0px;
-    height: 30vh;
     box-shadow: 1px 5px 10px 0px rgb(150, 150, 150);
     min-height: 340px;
 }
